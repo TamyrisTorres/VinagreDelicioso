@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+
+:root{
+    --cor-primary: #2C3639;
+}
+
+* {
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color:#F2CF1D;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap:5%
+}
+
+.cabecalho__menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.cabecalho__menu__link{
+    font-size: 1.6rem;
+    font-weight: 600px;
+    color: #BF4904;
+    text-decoration: none;
+    flex-grow: 5;
+}
+
+.cabecalho__menu__link__acesso__login{
+    margin-left: auto;
+    font-size: 1.5rem;
+    font-weight: 600px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #BF4904;
+    width:9%;
+    background: #BF4904;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__menu__link__acesso__login:hover {
+    background-color: #555;
+}
+
+.corpo{
+    margin-top: 20px;
+}
+
+.texto__nossa__historia{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    color: #01403;
+}
+
+.paragrafo{
+    gap: 10px;
+    margin: 0.8% 0.8%;
+    padding: 5% 5%;
+    font-size: 23px;
+}
+
+.logo__vinagre{
+    width: 130px;
+    border-radius: 16px;
+    border-color: #F2E313;
+    background-color: #F2E313;
+    margin-right: 10px;
+    margin: 0.8% 0.8%;
+}
+
+.salada__principal{
+   border-radius: 16px;
+   width: 1250px;
+   opacity: 0.5;
+}
+
+.apresentacao{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 615px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-family:"Krona One", sans-serif;
+    color: #01403A;
+    position: absolute;
+    z-index: 1;
+}
+
+.imagem_historia{
+    width:100%
+}
+
+.apresentacao__historia{
+    font-size: 18px;
+    font-family: "Krona One", sans-serif;
+}
+
+.title_nossa__historia{
+    padding-bottom: 4px;
+    margin: 3%;
+    font-size: 50px;
+    border-bottom: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family:"Krona One", sans-serif;
+    color: #BD2A2E;
+}
+
+.rodape{
+    padding-block-end: 3%;
+    font-family: "Montserrat", sans-serif;
+    color: #01403;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 2%;
+}
+
+.rodape__endereco{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+hr {
+    height: 5px;
+    background-image: linear-gradient(to right, transparent, rgba(255, 0, 0, 0.486), transparent);
+	border: 0;
+}
+
+.imagens__produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px;
+}
+
+.imagem {
+    width: 80%;
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+}
+
+.item__imagem {
+    width: 100%;
+    border-radius: 16px;
+}
