@@ -13,7 +13,7 @@
 
 body {
     height: 100vh;
-    background-color:#F2CF1D;
+    background-color:#F2DA5E;
 }
 
 .cabecalho{
@@ -133,24 +133,56 @@ body {
 }
 
 .rodape{
-    padding-block-end: 3%;
     font-family: "Montserrat", sans-serif;
-    color: #01403;
-    font-size: 16px;
+    color: #730202;
+    font-size: 18px;
     line-height: 1.5;
-    margin: 2%;
+    background-color: #F2E41D;
 }
 
 .rodape__endereco{
     display: flex;
     align-items: center;
-    gap: 10px;
+}
+
+.rodape__texto{
+    padding: 2%;
+}
+
+.whatsapp-button {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border-radius: 50%;
+            text-decoration: none;
+            text-align: center;
+            line-height: 60px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 30, 0, 0.1);
+            transition: background-color 0.3s;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+
+.whatsapp-button:hover {
+     background-color: #1DA851;
+}
+
+.whatsapp-button img {
+    width: 60px;  /* Largura da imagem */
+    height: 60px; /* Altura da imagem */
+    vertical-align: middle; /* Centraliza verticalmente */
 }
 
 hr {
-    height: 5px;
-    background-image: linear-gradient(to right, transparent, rgba(255, 0, 0, 0.486), transparent);
-	border: 0;
+    height: 50px;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 0, 1), transparent);
+    border: 1px; /* Adiciona uma borda para garantir que o elemento seja visível */
+    padding: 10px;
 }
 
 .imagens__produtos {
